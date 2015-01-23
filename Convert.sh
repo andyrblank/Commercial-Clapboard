@@ -10,9 +10,10 @@
 # $8 Start time stamp of recording, UNIX epoch (%S)
 # $9 Stop time stamp of recording, UNIX epoch (%E)
 
-OutputPath=/media/seagate/DVR/$5
-Log=/home/hts/logs/ConvertLog.txt
-XmlPath=/home/hts/mc2xml
+#Change Paths below to suit your setup
+OutputPath=/Path/To/Output/$5
+Log=/home/Path/to/Log/ConvertLog.txt
+XmlPath=/Path/to/mc2xml
 #File Name and path without extension
 BaseFileName=${1%.*}
 
