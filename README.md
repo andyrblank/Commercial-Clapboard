@@ -8,15 +8,15 @@ The Post Processing Code in the Tvheadend configuration should be as follows:
 
 Below is a description from Tvheadend of the output variables and their mappings in the script.
 
-# $1 Full path to recording (%f) /home/user/Videos/News.mkv
-# $2 Basename of recording (%b) News.mkv
-# $3 Channel name (%c) BBC world
-# $4 Who created this recording (%C) user
-# $5 Program title (%t) News
-# $6 Program description (%d) News and stories...
-# $7 Error message (%e) Aborted by user
-# $8 Start time stamp of recording, UNIX epoch (%S)
-# $9 Stop time stamp of recording, UNIX epoch (%E)
+* $1 Full path to recording (%f) /home/user/Videos/News.mkv
+* $2 Basename of recording (%b) News.mkv
+* $3 Channel name (%c) BBC world
+* $4 Who created this recording (%C) user
+* $5 Program title (%t) News
+* $6 Program description (%d) News and stories...
+* $7 Error message (%e) Aborted by user
+* $8 Start time stamp of recording, UNIX epoch (%S)
+* $9 Stop time stamp of recording, UNIX epoch (%E)
 
 source: https://tvheadend.org/projects/tvheadend/wiki/Digital_Video_Recorder_configuration
 
